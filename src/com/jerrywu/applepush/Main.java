@@ -24,9 +24,9 @@ public class Main {
 		// TODO Auto-generated method stub
 		System.out.println("RG");
 		
-		String keystore = "";// 證書路徑
-		String password = ""; // 證書密碼
-		String token = "";// 手機唯一標識
+		String keystore = "/Users/Jerry/Desktop/Home.p12";// 證書路徑
+		String password = "guh98200"; // 證書密碼
+		String token = "e8024e30c218bdc1478a017c275560b0a5030c53bedd2a7eaafcacb0d7d2f5f5";// 手機唯一標識
 		
 		
 		
@@ -34,9 +34,9 @@ public class Main {
 		boolean production = false; // 設置true为正式服務地址，false为開發者地址
 		int threadThreads = 5; // 線程數
 		
-		String msg = "傳送推播訊息";
+		String msg = "想要ＧＧ了";
 		
-		int msgCount = 5;
+		int msgCount = 1;
 		
 		
 		try {
